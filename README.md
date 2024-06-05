@@ -1,14 +1,14 @@
 # 浙江农林大学Beamer主题
 
-本项目是为浙江农林大学成员提供LaTeX beamer主题模板，主要参考了 [THU Bearmer Theme](https://github.com/tuna/THU-Beamer-Theme )
+本项目是为浙江农林大学成员提供 `LaTeX beamer` 主题模板，主要参考了 [`THU Bearmer Theme`](https://github.com/tuna/THU-Beamer-Theme )
 
 ## 如何使用
 
-1. 在Overleaf中使用该模板：https://www.overleaf.com/latex/templates/zafu-beamer-theme/bdpfykmptkmx
-2. 从GitHub下载该项目，使用本地Latex环境编译
+1. 在 `Overleaf` 中使用该[模板](https://www.overleaf.com/latex/templates/zafu-beamer-theme/bdpfykmptkmx)
+2. 从 `GitHub` 下载该项目，使用本地 `Latex` 环境编译
 
 ## 页面展示
-完整页面见[slide.pdf](./slide.pdf):
+完整页面见 [slide.pdf](./slide.pdf):
 
 ![](pic/slide/page1.png)
 ![](pic/slide/page2.png)
