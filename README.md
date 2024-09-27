@@ -36,9 +36,3 @@ To switch the language, just change the language option in the `collegeBeamer` p
 ![code](./gallery/slide/code-block.png)
 - End page
 ![end](./gallery/slide/end.png)
-
-## Add your own college?
-
-Refer to original project: [liu-qilong
-/
-college-beamer](https://github.com/liu-qilong/college-beamer)
