@@ -1,8 +1,6 @@
 # `ZAFU Beamer Theme(Beta)`
 
-Project modified from [liu-qilong
-/
-college-beamer](https://github.com/liu-qilong/college-beamer).
+Project modified from [liu-qilong/college-beamer](https://github.com/liu-qilong/college-beamer).
 
 For another version, please see the [alpha](https://github.com/ke1ewang/ZAFU-Beamer-Theme/tree/alpha) branch.
 
@@ -30,11 +28,11 @@ To switch the language, just change the language option in the `collegeBeamer` p
 
   At the beginning of each section, the table of contents will be shown with the current chapter highlighted.
 ![toc](./gallery/slide/table-of-contents.png)
-- Sub-section page
+- Sub-section
 ![ssec](./gallery/slide/sub-section.png)
 - Math equation
 ![math](./gallery/slide/math-equation.png)
 - Code block
 ![code](./gallery/slide/code-block.png)
-- End page
+- End
 ![end](./gallery/slide/end.png)
