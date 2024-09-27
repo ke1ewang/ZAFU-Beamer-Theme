@@ -29,9 +29,9 @@
 }
 
 \newcommand{\maincolorRGB}{0, 137, 68}
-\newcommand{\colorlogoPath}{src/green-logo.png}
-\newcommand{\translogoPath}{src/white-logo.png}
-\newcommand{\backgroundPath}{src/cover.png}
+\newcommand{\greenLogoPath}{src/green-logo.png}
+\newcommand{\whiteLogoPath}{src/white-logo.png}
+\newcommand{\coverPath}{src/cover.png}
 
 \ProcessOptions\relax
 
@@ -40,9 +40,9 @@
 \geometry{paperwidth=16cm,paperheight=9cm}
 
 % logo
-\pgfdeclareimage[width=0.09\paperwidth]{colorlogo}{\colorlogoPath}
-\pgfdeclareimage[width=0.09\paperwidth]{translogo}{\translogoPath}
-\newcommand{\@makelogo}{colorlogo}
+\pgfdeclareimage[width=0.09\paperwidth]{greenLogo}{\greenLogoPath}
+\pgfdeclareimage[width=0.09\paperwidth]{whiteLogo}{\whiteLogoPath}
+\newcommand{\@makelogo}{greenLogo}
 
 \setbeamertemplate{headline}{\hspace{0.06\textwidth}\pgfuseimage{\@makelogo}} % put the logo in each slide's top left area
 
@@ -53,13 +53,13 @@
 
 \newcommand{\themecolor}[1]{
     \ifstrequal{#1}{colorbg}{
-        \renewcommand{\@makelogo}{translogo}
+        \renewcommand{\@makelogo}{whiteLogo}
         \setbeamercolor{normal text}{fg=white, bg=maincolor}
         \setbeamercolor{structure}{fg=white}
         \setbeamercolor{block title}{fg=maincolor, bg=sintefgrey}
         \setbeamercolor{block body}{fg=maincolor, bg=sintefgrey}
     }{
-        \renewcommand{\@makelogo}{colorlogo}
+        \renewcommand{\@makelogo}{greenLogo}
         \setbeamercolor{normal text}{fg=darkgray, bg=white}
         \setbeamercolor{structure}{fg=maincolor}
         \setbeamercolor{block title}{fg=airforceblue, bg=morelightgray}
@@ -221,7 +221,7 @@
     \begingroup
         \setbeamertemplate{footline}{}
         \setbeamertemplate{background}{
-            \includegraphics[height=\paperheight]{\backgroundPath}
+            \includegraphics[height=\paperheight]{\coverPath}
         }
         \begin{frame}
             \titlepage
