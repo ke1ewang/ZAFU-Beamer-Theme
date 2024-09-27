@@ -12,7 +12,7 @@ For another version, please see the [alpha](https://github.com/ke1ewang/ZAFU-Bea
 To switch the language, just change the language option in the `collegeBeamer` package. For example, to switch to the Chinese language, add `zh` to the package:
 
 ```
-\usepackage[zh]{collegeBeamer}
+\usepackage[zh]{zafu}
 ```
 
 > When select `zh`, please add the `xeCJK`package to the preamble and use [XeLaTeX](https://www.overleaf.com/learn/latex/XeLaTeX) as the typesetting engine.
