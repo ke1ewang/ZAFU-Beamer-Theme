@@ -9,7 +9,7 @@ For another version, please see the [alpha](https://github.com/ke1ewang/ZAFU-Bea
 
 ### Switch language
 
-To switch the language, just change the language option in the `collegeBeamer` package. For example, to switch to the Chinese language, add `zh` to the package:
+To switch the language, just change the language option in the `zafu` package. For example, to switch to the Chinese language, add `zh` to the package:
 
 ```
 \usepackage[zh]{zafu}
