@@ -3,6 +3,7 @@
 Project modified from [liu-qilong
 /
 college-beamer](https://github.com/liu-qilong/college-beamer).
+
 For another version, please see the [alpha](https://github.com/ke1ewang/ZAFU-Beamer-Theme/tree/alpha) branch.
 
 
